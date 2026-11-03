@@ -1,0 +1,24 @@
+id,phase,kaggle_notebook,change,private_score,public_score,status
+E01,1,biohub-v1,Harmonic Fusion baseline,0.91448,0.94762,succeeded
+E02,1,biohub-v2,+ motion relink preserves raw links,0.91274,0.94689,succeeded
+E03,1,notebook78ece55754,Hengck end-to-end linker only,0.907,0.92437,succeeded
+E04,1,biohub-version4,post-processing stages switched off,0.90354,0.93177,succeeded
+E05,1,biohub-v5,baseline + Hengck confidence gate,0.90687,0.94611,succeeded
+E06,1,biohub-v6,"post-process, then Hengck gate",0.91342,0.94677,succeeded
+E07,2,biohub-k3-hengck-951,K3 + Hengck fork-transfer base,0.9174,0.95133,succeeded
+E08,2,biohub-k3-hengck-v1327-w3-test,V1327 W3 as primary checkpoint,0.92003,0.95118,succeeded
+E09,2,biohub-k3-v1327-hengck-consensus,V1327 endpoint consensus,,,notebook threw exception
+E10,2,biohub-k3-v1327-hengck-fragments,V1327 fragment recovery,,,notebook threw exception
+E11,2,biohub-k3-hengck-gap2-recall,broader 3-frame gap recovery,0.9174,0.95128,succeeded
+E12,2,biohub-k3-hengck-motion-relink,motion-aware relink,0.92124,0.95228,succeeded
+E13,2,biohub-k3-hengck-motion-division,motion relink + division recall,0.9225,0.94902,succeeded
+E14,2,biohub-k3-hengck-motion-gap2-off,gap-2 recovery off,0.91983,0.95139,succeeded
+E15,2,biohub-k3-hengck-motion-long-edge-gate,long-edge gate (>8.4 um),0.92219,0.95286,succeeded
+E16,2,biohub-k3-hengck-motion-hoct-endpoint-repair,HOCT endpoint repair,0.92124,0.95228,succeeded
+E17,2,biohub-k3-hengck-motion-gap-close-off,1-frame gap close off,0.91607,0.95002,succeeded
+E18,2,biohub-k3-hengck-motion-short-track-len-5,keep tracks of length 5,0.92118,0.95274,succeeded
+E19,2,biohub-k3-hengck-motion-relaxed-9um,relaxed relink radius 10 -> 9 um,0.92228,0.95219,succeeded
+E20,2,biohub-k3-hengck-motion-det-0-960,detector threshold 0.960,0.92241,0.95212,succeeded
+E21,2,biohub-k3-hengck-motion-secondary-det-050,secondary model weight 0.80 -> 0.50,0.92406,0.94881,succeeded
+E22,2,biohub-k3-hengck-motion-det-0-970,detector threshold 0.970,0.92095,0.95218,succeeded
+E23,3,biohub-cell-tracking-953-edge-cache-experiment,cached edge scores (Harmonic Fusion),0.91724,0.95558,succeeded
